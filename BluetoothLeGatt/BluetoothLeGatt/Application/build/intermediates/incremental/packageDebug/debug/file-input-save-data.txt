@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Sun Jun 30 20:12:56 CST 2019
+0.baseType=DIRECTORY
+0.base=C\:\\Users\\Chris\\Desktop\\Indoor\\BluetoothLeGatt\\BluetoothLeGatt\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.path=classes.dex
+0.set=DEX
+count=1

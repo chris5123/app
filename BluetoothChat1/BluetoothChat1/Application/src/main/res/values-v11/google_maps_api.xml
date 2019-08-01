@@ -1,0 +1,24 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=D3:81:63:2F:A9:46:DC:67:BE:6B:BD:84:D5:FB:F8:8D:55:1A:0C:8F%3Bcom.example.android.bluetoothchat
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    D3:81:63:2F:A9:46:DC:67:BE:6B:BD:84:D5:FB:F8:8D:55:1A:0C:8F
+
+    SHA-1 certificate fingerprint:
+    D3:81:63:2F:A9:46:DC:67:BE:6B:BD:84:D5:FB:F8:8D:55:1A:0C:8F
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBO_kevvZO-cPLcMdG2m1bY_vYKmKfBU0I</string>
+</resources>

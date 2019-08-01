@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Google Map ���� -->
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/title_panel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/map"
+        android:layout_centerInParent="true"
+        android:background="@drawable/operation_drawable"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Menu" />
+    </LinearLayout>
+
+    <TableLayout
+        android:id="@+id/menu_panel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_panel"
+        android:layout_centerInParent="true"
+        android:background="@drawable/operation_drawable"
+        android:padding="12dp"
+        android:visibility="invisible">
+
+        <TableRow>
+            <TextView android:text="Zoom Button" />
+
+            <Switch
+                android:id="@+id/zoom_button_switch"
+                android:checked="true" />
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="Compass" />
+
+            <Switch
+                android:id="@+id/compass_switch"
+                android:checked="true" />
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="Traffic" />
+
+            <Switch
+                android:id="@+id/traffic_switch"
+                android:checked="true" />
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="MyLocation Button" />
+
+            <Switch
+                android:id="@+id/mylocation_button_switch"
+                android:checked="false" />
+        </TableRow>
+
+        <!-- �ڪ��a�I�ϼh -->
+        <TableRow>
+            <TextView android:text="MyLocation Layer" />
+
+            <Switch
+                android:id="@+id/mylocation_layer_switch"
+                android:checked="false" />
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="Scroll Gestures" />
+
+            <Switch
+                android:id="@+id/scroll_gestures_switch"
+                android:checked="true" />
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="Zoom Gestures" />
+
+            <Switch
+                android:id="@+id/zoom_gestures_switch"
+                android:checked="true" />
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="Tilt Gestures" />
+
+            <Switch
+                android:id="@+id/tilt_gestures_switch"
+                android:checked="true" />
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="Rotate Gestures" />
+
+            <Switch
+                android:id="@+id/rotate_gestures_switch"
+                android:checked="true" />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_v0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="Position v0"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView_v1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Position v1"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

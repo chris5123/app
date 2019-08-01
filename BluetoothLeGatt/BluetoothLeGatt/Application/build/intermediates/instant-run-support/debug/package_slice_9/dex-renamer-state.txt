@@ -1,0 +1,4 @@
+#Fri Jun 14 13:36:11 CST 2019
+base.0=C\:\\Users\\YVTC\\AndroidStudioProjects\\BluetoothLeGatt\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\9
+path.0=classes.dex
+renamed.0=classes.dex
